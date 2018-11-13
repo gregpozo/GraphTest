@@ -6,7 +6,6 @@ let myChart = document.getElementById('myChart').getContext('2d');
     Chart.defaults.global.defaultFontSize = 14;
     Chart.defaults.global.defaultFontColor = '#777';
     Chart.defaults.global.responsive = true;
-    Chart.defaults.global.maintainAspectRatio = false
 
     let massPopChart = new Chart(myChart, {
       type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
@@ -39,6 +38,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
         }]
       },
       options:{
+        maintainAspectRatio: false,
         title:{
           display:true,
           text:'Largest Cities In Massachusetts',
