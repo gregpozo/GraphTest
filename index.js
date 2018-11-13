@@ -3,9 +3,10 @@ let myChart = document.getElementById('myChart').getContext('2d');
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'Lato';
     //Chart.defaults.global.scaleFontSize = 30;
-    //Chart.defaults.global.defaultFontSize = 16;
+    Chart.defaults.global.defaultFontSize = 14;
     Chart.defaults.global.defaultFontColor = '#777';
     Chart.defaults.global.responsive = true;
+    Chart.defaults.global.maintainAspectRatio = false
 
     let massPopChart = new Chart(myChart, {
       type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
