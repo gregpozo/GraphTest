@@ -2,7 +2,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
 
     // Global Options
     Chart.defaults.global.defaultFontFamily = 'Lato';
-    Chart.defaults.global.scaleFontSize = 18;
+    Chart.defaults.global.defaultFontSize = 18;
     Chart.defaults.global.defaultFontColor = '#777';
     Chart.defaults.global.responsive = true;
 
