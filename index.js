@@ -42,7 +42,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
           //fontSize:25
         },
         legend:{
-          display:true,
+          display:false,
           position:'right',
           labels:{
             fontColor:'#000'
